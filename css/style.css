@@ -1,0 +1,31 @@
+.progress{
+    
+}
+.nav-link:hover{
+    color: #ffc107;
+    background-color: #ffc107;
+}
+
+.btn{
+    border-radius: 0px;
+    width: 25%;
+    height: 125%;
+    border: 4px solid;
+}
+.btn-light{
+    background-color: gray;
+    border-color: #fff;
+}
+.btn-light:hover{
+    background-color: transparent;
+    border-color: #fff;
+}
+.btn-warning{
+    border-color: #ffc107;
+    color: #fff;
+}
+.btn-warning:hover{
+    color: #fff;
+    background-color: #6a4d8a;
+    border-color: #6a4d8a; /*set the color you want here*/
+}
