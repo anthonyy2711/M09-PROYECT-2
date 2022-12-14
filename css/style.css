@@ -1,6 +1,14 @@
-.progress{
-    
+.carousel {
+	width: 50%;
+	margin: 0 auto;
 }
+.carousel .img-box {
+	width: 145px;
+	height: 145px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
 .nav-link:hover{
     color: #ffc107;
     background-color: #ffc107;
