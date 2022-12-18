@@ -11,21 +11,24 @@
     font-style: normal;
     font-weight: normal;
 }
+a:hover{
+    color: #6a4d8a;
+}
 
-body{
-    font-family: 'Poppins-Bold';
-}
 /*------*/
-.carousel {
-	width: 50%;
-	margin: 0 auto;
-}
-.carousel .img-box {
-	width: 145px;
-	height: 145px;
-	margin: 0 auto;
-	border-radius: 50%;
-}
+
+h1{
+    font-family: 'Poppins-Bold'
+};
+h2{
+    font-family: 'Poppins-Bold'
+};
+h3{
+    font-family: 'Poppins-Bold'
+};
+h4{
+    font-family: 'Poppins-Bold'
+};
 
 .nav-link:hover{
     color: #ffc107;
