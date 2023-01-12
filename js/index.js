@@ -15,14 +15,10 @@ $(document).ready(function() {
                     easing: 'swing',
                     step: function (now) {
                         $(this).text(Math.ceil(now));
-                    }
-                    
-                });
-                
-                });
-               
-        }
-        
+                    }                   
+                });              
+                });         
+        }      
      });
 
 
