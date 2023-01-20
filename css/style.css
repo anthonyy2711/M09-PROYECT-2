@@ -29,10 +29,11 @@ h3{
 h4{
     font-family: 'Poppins-Bold'
 };
-
-.nav-link:hover{
-    color: #ffc107;
-    background-color: #ffc107;
+h5{
+    font-family: 'Poppins-Bold'
+};
+.poppins{
+    font-family: 'Poppins-Bold'
 }
 
 .btn{
