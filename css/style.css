@@ -35,7 +35,21 @@ h5{
 .poppins{
     font-family: 'Poppins-Bold'
 }
-
+.bg-salmon{
+    background-color: rgb(241, 139, 109);
+}
+.text-salmon{
+    color: rgb(241, 139, 109);
+}
+.bg-purple{
+    background-color: rgb(106, 77, 138);
+}
+.text-purple{
+    color: rgb(106, 77, 138);
+}
+.list-none{
+    list-style:none;
+}
 .btn{
     border-radius: 0px;
     width: 25%;
