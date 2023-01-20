@@ -22,7 +22,7 @@
 
 <body>
 
-  <header class="bg-image" style="background-image: url(/img/front-page-header.jpg);">
+  <header>
     <div class="container ">
       <div class="row">
         <nav class="navbar navbar-expand-lg bg-light text-dark fixed-top ">
@@ -32,7 +32,7 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse navbar-right col-md-8 ms-5" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse navbar-right col-md-8 ms-5 " id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
               <li class="nav-item">
                 <a class="nav-link active " aria-current="page" href="#">Home</a>
@@ -63,38 +63,37 @@
         </nav>
       </div>
     </div>
-
+  </header>
     <!---->
-    <!---->
-    <div class="container text-center">
+    <!--HOME-->
+    <div class="container-fluid text-center bg-image-home">
       <div class="row justify-content-center">
-        <div class="col-12" style="height: 200px;">
+        <div class="col-12" style="height: 300px;">
 
         </div>
         <div class="col-12 text-center">
-          <h1 class="text-white text-md-" style="font-size: 80px; line-height: 84px; font-weight: 700;">
+          <h1 class="text-white display-1">
             Clean<span class="text-warning">.</span>Slick<span class="text-warning">.</span>Pixel
             Perfect
-          </h1>
-
+          </h1> 
         </div>
         <div class=""></div>
-        <div class="col-9">
+        <div class="col-12 col-md-8">
           <p class="text-white">lldy is a great one-page theme, perfect for developers and designers but also for
             someone who just wants
             a new website for his business. Try it now!</p>
         </div>
-        <div class="col-9">
-          <button type="button" class="btn btn-light  text-white">Learn More</button>
-          <button type="button" class="btn btn-warning  btn-hover-primary text-white ms-4">Download</button>
+        <div class="col-12 col-md-6 text-md-end mb-3">
+          <button type="button" class="btn btn-light btn-block text-white">Learn More</button>
         </div>
-        <div class="col-12" style="height: 200px;">
-
+        <div class="col-12 col-md-6 text-md-start mb-3">
+          <button type="button" class="btn btn-warning btn-block btn-hover-primary text-white">Download</button>
+        </div>
+        <div class="col-12" style="height: 300px;">
         </div>
       </div>
-
     </div>
-  </header>
+
   <!--ABOUT-->
   <div class="container text-center" id="about">
     <div class="row justify-content-center mb-5 mt-5">
@@ -117,7 +116,7 @@
             <span>60%</span>
           </div>
         </div>
-        <i class="fab fa-angular" style="color: rgb(241, 139, 109);">A</i>
+        <i class="fab fa-angular text-salmon">A</i>
         <span class="text-salmon">Typography</span>
       </div>
       <div class="col-12 col-md-4 text-start">
@@ -144,7 +143,7 @@
     </div>
   </div>
   <!--PROJECTS-->
-  <div class="container-fluid text-center" style="background-image: url(/img/bg.JPG)" id="projects">
+  <div class="container-fluid text-center bg-image-projects"id="projects">
     <div class="row justify-content-center ">
       <div class="col-12 mb-5 mt-5">
         <h1 class="fs-1 fw-bold">Projects</h1>
@@ -152,7 +151,7 @@
       </div>
       <div class="col-6 col-md-3">
         <a href="">
-          <img src="/img/proyect-1.png" class="img-fluid" alt="..." style="padding: 0;">
+          <img src="/img/proyect-1.png" class="img-fluid" alt="...">
         </a>
       </div>
       <div class="col-6 col-md-3">
@@ -174,12 +173,12 @@
     </div>
   </div>
   <!--TESTIMONIALS-->
-  <div class="container-fluid text-center text-light" style="background-image: url(/img/bg-testimonials.JPG)" id="testimonials">
+  <div class="container-fluid text-center text-light bg-image-testimonials" id="testimonials">
     <div class="row justify-content-center ">
       <div class="col-12 mt-5">
         <h1 class="fs-1 fw-bold">Testimonials</h1>
       </div>
-      <div class="col-8">
+      <div class="col-12 col-md-8">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -277,11 +276,11 @@
     </div>
   </div>
   <!--LATEST NEWS-->
-  <div class="container-fluid text-start" style="background-color: #222f36;" id="blog">
+  <div class="container-fluid text-start bg-blue-marin" id="blog">
     <div class="row justify-content-center ">
       <div class="text-center mt-5">
         <h1 class="text-light">Latest News</h1>
-        <p class="text-secondary">If you are interested in the latest articles in the industry,
+        <p class="text-secondary text-poppins">If you are interested in the latest articles in the industry,
           take a sneak peek at our blog. <br>You have nothing to loose!
         </p>
         <br>
@@ -295,13 +294,13 @@
         <div class="card border-0 h-100">
           <img src="/img/new1.JPG" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 style="font-family: 'Poppins-Bold'" class=" poppins fs-4">We Have Made Illdy Theme SEO Friendly</h5>
+            <h5 class="card-title fs-4 mt-3 mb-3">We Have Made Illdy Theme SEO Friendly</h5>
             <p class="card-text">Illdy One Page WordPress theme is fully SEO friendly and is ready to help you to
               achieve the highest rankings…</p>
             
           </div>
           <div class="card-footer border-0 align-self-end mb-2 me-3">
-            <a href="#" style="text-decoration: none;" class="text-warning ">
+            <a href="#"class="text-warning text-decoration-none">
               <i class="bi bi-arrow-right-circle-fill "></i> Read more
             </a>
           </div>
@@ -311,12 +310,12 @@
         <div class="card border-0 h-100">
           <img src="/img/new2.JPG" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title fw-bold fs-4 text-dark opacity-75">Stunning One Page WordPress Theme For Masses</h5>
+            <h5 class="card-title fs-4 mt-3 mb-3">Stunning One Page WordPress Theme For Masses</h5>
             <p class="card-text">This theme is not just free, it is free for private and commercial use since it is
               licensed under GPL…</p>
           </div>
           <div class="card-footer border-0 align-self-end mb-2 me-3">
-            <a href="#" style="text-decoration: none;" class="text-warning ">
+            <a href="#"class="text-warning text-decoration-none">
               <i class="bi bi-arrow-right-circle-fill "></i> Read more
             </a>
           </div>
@@ -326,12 +325,12 @@
         <div class="card border-0 h-100">
           <img src="/img/new3.JPG" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title fw-bold fs-4 opacity-75">Hello world!</h5>
+            <h5 class="card-title fs-4 mt-3 mb-3">Hello world!</h5>
             <p class="card-text">Welcome to colorlib.com. This is our first post around Illdy WordPress theme. Now show
               that you can make out of it.…</p>
           </div>
           <div class="card-footer border-0 align-self-end mb-2 me-3">
-            <a href="#" style="text-decoration: none;" class="text-warning ">
+            <a href="#" class="text-warning text-decoration-none">
               <i class="bi bi-arrow-right-circle-fill "></i> Read more
             </a>
           </div> 
@@ -341,37 +340,37 @@
     </div>
   </div>
   <!--COUNTER-->
-  <div class="container-fluid text-center text-light" style="background-image: url(/img/front-page-counter.jpg)">
+  <div class="container-fluid text-center text-light bg-image-counter">
     <br>
-    <div class="row" id="div-counter">
+    <div class="row align-items-center" id="div-counter">
       <div class="col-md-4 border-end border-light">
         <div class="">
           <i class="fa fa-thumbs-o-up"></i>
-          <span class="counter fw-bold" style="font-size: 65px;">260</span>
-          <p class="fw-bold" style="font-size: 20px;">PROJECTS</p>
+          <span class="counter fw-bold display-2">260</span>
+          <p class="text-poppins-bold fs-5">PROJECTS</p>
         </div>
       </div>
       <div class="col-md-4 border-end border-light">
         <div>
           <i class="fa fa-thumbs-o-up"></i>
-          <span class="counter fw-bold" style="font-size: 65px;">120</span>
-          <p class="fw-bold" style="font-size: 20px;">CLIENTS</p>
+          <span class="counter fw-bold display-2">120</span>
+          <p class="text-poppins-bold fs-5">CLIENTS</p>
         </div>
       </div>
       <div class="col-md-4">
         <div>
           <i class="fa fa-thumbs-o-up"></i>
-          <span class="counter fw-bold" style="font-size: 65px;">260</span>
-          <p class="fw-bold" style="font-size: 20px;">COFFES</p>
+          <span class="counter fw-bold display-2">260</span>
+          <p class=" text-poppins-bold fs-5">COFFES</p>
         </div>
       </div>
     </div>
     <br>
   </div>
   <!--TEAM-->
-  <div class="container-fluid text-start" style="background-image: url(/img/bg.JPG)" id="ourteam">
+  <div class="container-fluid text-start bg-image-projects"id="ourteam">
     <div class="row justify-content-center">
-      <div class="text-center mt-5">
+      <div class="text-center mt-5 mb-5">
         <h1>Team</h1>
         <p>Meet the people that are going to take your business to the next level.</p>
       </div>
@@ -464,28 +463,28 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="col-12 col-md-2 border-end border-dark">
+      <div class="col-12 col-md-1 border-end border-dark">
         <p class="text-warning">Address</p>
       </div>
       <div class="col-12 col-md-2">
         <p>Street 221B Baker Street,
           London, UK</p>
       </div>
-      <div class="col-12 col-md-2 border-end border-dark">
+      <div class="col-12 col-md-1 border-end border-dark">
         <p class="text-warning">Customer Support</p>
       </div>
-      <div class="col-12 col-md-4">
+      <div class="col-12 col-md-3">
         <p>E-mail: contact@site.com</p>
         <p>Phone: (555) 555-5555</p>
       </div>
-      <div class="col-12 col-md-2">
+      <div class="col-12 col-md-2 ">
         <a href="" class="text-dark" ><i class="bi bi-facebook"></i></a>
         <a href="" class="text-dark"><i class="bi bi-twitter"></i></a>
         <a href="" class="text-dark"><i class="bi bi-linkedin"></i></a>
 
       </div>
     </div>
-    <div class="row">
+    <div class="row justify-content-center">
       <form class="row g-3 needs-validation mb-5" novalidate>
         <div class="col-md-4">
           <label for="validationCustom01" class="form-label">Your Name (required)</label>
@@ -518,7 +517,7 @@
       </form>
     </div>
   </div>
-  <footer class="text-start text-light" style="background-color: #292825">
+  <footer class="text-start text-light bg-dark-gray-1">
     <br>
     <!-- Section: Links  -->
     <section class="">
@@ -591,7 +590,7 @@
     <!-- Section: Links  -->
 
     <!-- Copyright -->
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    <div class="text-center p-4 bg-dark-gray-2">
       © 2022 Copyright:
       <a class="text-reset fw-bold" href="">Anthony&&Ruyou.com</a>
     </div>

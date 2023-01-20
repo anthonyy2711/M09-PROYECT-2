@@ -16,11 +16,14 @@ $(document).ready(function() {
                     step: function (now) {
                         $(this).text(Math.ceil(now));
                     }                   
-                });              
-                });         
-        }      
+                });   
+
+                })
+               
+        }  
+        
      });
 
 
-     return false;
+     
 });  

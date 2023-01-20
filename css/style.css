@@ -4,36 +4,50 @@
     font-style: normal;
     font-weight: normal;
 }
-
 @font-face {
     font-family: 'Poppins-Bold';
     src: url('./../font-Poppins/Poppins-Bold.ttf') format('truetype');
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: 'Lato';
+    src: url('./../font-Lato/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Lato-Bold';
+    src: url('./../font-Lato/Lato-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+.text-lato-bold{
+    font-family: 'Lato-Bold';
+}
+.text-poppins-bold{
+    font-family: 'Poppins-Bold';
+}
 a:hover{
     color: #6a4d8a;
 }
-
-/*------*/
-
 h1{
     font-family: 'Poppins-Bold'
-};
+}
 h2{
     font-family: 'Poppins-Bold'
-};
+}
 h3{
     font-family: 'Poppins-Bold'
-};
+}
 h4{
     font-family: 'Poppins-Bold'
-};
+}
 h5{
     font-family: 'Poppins-Bold'
-};
-.poppins{
-    font-family: 'Poppins-Bold'
+}
+p{
+    font-family: 'Lato';
 }
 .bg-salmon{
     background-color: rgb(241, 139, 109);
@@ -43,6 +57,15 @@ h5{
 }
 .bg-purple{
     background-color: rgb(106, 77, 138);
+}
+.bg-blue-marin{
+    background-color: #222f36;
+}
+.bg-dark-gray-1{
+    background-color: #292825
+}
+.bg-dark-gray-2{
+    background-color: rgba(0, 0, 0, 0.05);
 }
 .text-purple{
     color: rgb(106, 77, 138);
@@ -73,3 +96,21 @@ h5{
     background-color: #6a4d8a;
     border-color: #6a4d8a; /*set the color you want here*/
 }
+.bg-image-home{
+    background-image: url(/img/front-page-header.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+.bg-image-projects{
+    background-image: url(/img/bg.JPG);
+}
+.bg-image-testimonials{
+    background-image: url(/img/bg-testimonials.JPG);
+    background-position: center center;
+}
+.bg-image-counter{
+    background-image: url(/img/front-page-counter.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
