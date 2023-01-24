@@ -113,4 +113,6 @@ p{
     background-position: center center;
     background-attachment: fixed;
 }
-
+.height300{
+    height: 300px;
+}
