@@ -107,6 +107,8 @@ p{
 .bg-image-testimonials{
     background-image: url(/img/bg-testimonials.JPG);
     background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .bg-image-counter{
     background-image: url(/img/front-page-counter.jpg);
